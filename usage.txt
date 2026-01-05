@@ -1,0 +1,11 @@
+Basic Inventory
+python3 gtfobins_auditor.py --gtfopath ./GTFOBins.github.io
+
+Inventory + SUID Scan
+python3 gtfobins_auditor.py --gtfopath ./GTFOBins.github.io --scan-suid
+
+Inventory + SUID + Sudo Audit
+python3 gtfobins_auditor.py --gtfopath ./GTFOBins.github.io --scan-suid --sudo-check
+
+Export Full Report
+python3 gtfobins_auditor.py --gtfopath ./GTFOBins.github.io --scan-suid --sudo-check --export report.json
