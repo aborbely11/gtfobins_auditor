@@ -74,3 +74,6 @@ What This Tool Is NOT
 This tool is SAFE by design and intended for defensive security, auditing, and education.
 
 
+
+<img width="1507" height="848" alt="image" src="https://github.com/user-attachments/assets/efff820f-f93c-4384-870a-efafa2141ad6" />
+
