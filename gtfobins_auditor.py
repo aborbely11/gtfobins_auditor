@@ -174,7 +174,6 @@ def get_file_caps(path: str) -> Optional[str]:
 
 def run_cmd(cmd: List[str]) -> Tuple[int, str, str]:
     """
-    Runs a command with locale forced to English (C), to keep output consistent for parsing/logs.
     """
     env = os.environ.copy()
     env["LC_ALL"] = "C"
